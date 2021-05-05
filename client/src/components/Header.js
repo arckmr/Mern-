@@ -26,7 +26,7 @@ renderContent() {
     <nav>
       <div className="nav-wrapper">
        <Link
-       to={this.props.auth ? '/' : '/surveys'}
+       to={this.props.auth ? '/surveys' : '/'}
          className="left brand-logo">
        MERN
        </Link>
