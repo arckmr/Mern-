@@ -4,7 +4,8 @@ module.exports = {
   mongoURI: 'mongodb+srv://archit:archit@mern.lpolz.mongodb.net/test?retryWrites=true&w=majority',
   cookieKey: 'dsvdfbvsxdbdfbdfbvdfvdvfvdfv',
   stripePublishableKey:'pk_test_51InN6mSB3XBaSsIVottBXt84AsvEWe0483Af3ngDLljR4BaAOpspzbQ2KWRJlYVgzGxRh3ykJXk1WOANIT02VqMD00mixy6Hzi',
-  stripeSecretKey:'sk_test_51InN6mSB3XBaSsIVpmKEh4R0G7fDixjlMyEH47yNQo0YMOgJQbl4Dlzgiio5A9wxNyPU7566seV1s6SQDO1HNruK0095LKCZ0o'
+  stripeSecretKey:'sk_test_51InN6mSB3XBaSsIVpmKEh4R0G7fDixjlMyEH47yNQo0YMOgJQbl4Dlzgiio5A9wxNyPU7566seV1s6SQDO1HNruK0095LKCZ0o',
+  sendInBlueKey:'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'
   //SRn1vKQN7vkWkswW
   //stripe password :Archit@29123
 
