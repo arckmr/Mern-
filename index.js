@@ -17,6 +17,7 @@ mongoose.connect(keys.mongoURI, {
 const app=express();
 
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(
     cookieSession({
        maxAge: 30 * 24 * 60 * 60 * 1000,
@@ -30,6 +31,7 @@ app.use(
 require('./routes/authRoutes')(app);
 require('./routes/billingRoutes')(app);
 require('./routes/surveyRoutes')(app);
+
 
 if (process.env.NODE_ENV === 'production'){
       app.use(express.static('client/build'));

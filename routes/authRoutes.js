@@ -10,7 +10,7 @@ passport.authenticate('google',{
      '/auth/google/callback',
       passport.authenticate('google'),
       (req,res) =>{
-        res.redirect ('/');
+        res.redirect ('/surveys');
       }
     );
 
