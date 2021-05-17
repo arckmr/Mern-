@@ -28,7 +28,7 @@ renderContent() {
        <Link
        to={this.props.auth ? '/surveys' : '/'}
          className="left brand-logo">
-       Survey Creator
+       <button>Create Survey</button>
        </Link>
        <ul className="right">
             {this.renderContent()}
